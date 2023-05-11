@@ -1,2 +1,2 @@
-# Mixed Messages
-Mixed Messages is a random message generator (a terminal app) built using Node.js.
+# MixedMessages.js
+MixedMessages.js is a terminal app that generates random messages using the Node runtime environment.

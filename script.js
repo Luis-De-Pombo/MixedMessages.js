@@ -9,6 +9,6 @@ const randEl = (arr) => {
   return arr[randI];
 };
 
-let phrase = randEl(subPhrases.sub1) + randEl(subPhrases.sub2) + randEl(subPhrases.sub3);
+let phrase = randEl(subPhrases.sub1) + randEl(subPhrases.sub2) + randEl(subPhrases.sub3) + "\n";
 
 console.log(phrase);

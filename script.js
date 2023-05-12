@@ -11,4 +11,7 @@ const randEl = (arr) => {
 
 let phrase = randEl(subPhrases.sub1) + randEl(subPhrases.sub2) + randEl(subPhrases.sub3) + "\n";
 
-console.log(phrase);
+const colorInstructions = ['\x1b[36m%s\x1b[0m', '\x1b[32m%s\x1b[0m', '\x1b[31m%s\x1b[0m', '\x1b[33m%s\x1b[0m'];
+
+let colorInst = randEl(colorInstructions);
+console.log(colorInst, phrase);
